@@ -4,11 +4,12 @@ Namespace ChatMemLLAMA
 Sub-modules
 -----------
 * ChatMemLLAMA.app
-* LLM: "llama-3.1-70b-versatile"
+* ChatMemLLAMA.config
+* ChatMemLLAMA.run
 
 
-Module ChatMemLLAMA.app.app
-===========================
+Module ChatMemLLAMA.app
+=======================
 
 Functions
 ---------
@@ -20,8 +21,8 @@ Functions
 :
 
 
-Module ChatMemLLAMA.app.config
-==============================
+Module ChatMemLLAMA.config.config
+=================================
 
 Classes
 -------
@@ -31,12 +32,12 @@ Classes
 
     ### Static methods
 
-    `get_all(filepath='app/config-model.json')`
+    `get_all(filepath='config-model.json')`
     :   Carga y devuelve todos los valores del archivo config-model.json.
 
 
-Module ChatMemLLAMA.app.run
-===========================
+Module ChatMemLLAMA.run
+=======================
 
 Functions
 ---------

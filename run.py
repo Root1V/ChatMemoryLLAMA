@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from config import Config
+from config.config import Config
 
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder

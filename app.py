@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from config import Config
+from config.config import Config
 from groq import Groq
 import streamlit as st
 
